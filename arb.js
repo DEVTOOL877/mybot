@@ -11,12 +11,3 @@ heBTN.addEventListener("click", () => {
     imageAlt: "Custom image",
   });
 });
-
-//How Arabic
-const haBTN = document.getElementById("haBTN");
-haBTN.addEventListener("click", () => {
-  Swal.fire({
-    title: "كيف يعمل",
-    html: 'لإضافة دور يجب عليك الاتصال به <a href="https://discord.com/users/865016362459856896" target="_blank" class="contact">HJX.#9660</a> واكتب هناك دور المعرف الخاص بك ويجب أن يكون هذا الدور هو التحقق من الدور أو الاتصال بخادم الدعم.'
-   });
-});
